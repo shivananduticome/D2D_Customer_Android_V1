@@ -102,5 +102,3 @@ class AdapterSubCategoryDescription(var callbackSubCategoryDescription: Callback
 
     }
 }
-
-/*Remove the white spaces*/
