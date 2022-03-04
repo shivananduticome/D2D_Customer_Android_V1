@@ -23,7 +23,6 @@ class AdapterSubCategoryDescription(var callbackSubCategoryDescription: Callback
         val binding = ItemRowSubcategoryDescriptionBinding.inflate(inflater,parent,false)
         return MyViewHolder(binding)
     }
-
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
          holder.bind(menuList[position],context!!)
          holder.binding.relativeLayout.setOnClickListener {
@@ -99,10 +98,9 @@ class AdapterSubCategoryDescription(var callbackSubCategoryDescription: Callback
             }catch (e:Exception){
               //  Toast.makeText(context,e.toString(),Toast.LENGTH_SHORT).show()
             }
-
-
        }
 
     }
 }
 
+/*Remove the white spaces*/
