@@ -105,3 +105,4 @@ class AdapterSubCategoryDescription(var callbackSubCategoryDescription: Callback
 
     }
 }
+
