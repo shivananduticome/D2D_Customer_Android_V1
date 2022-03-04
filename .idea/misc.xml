@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/addons_spherical_shape.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/background_rectangle_blue_green.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/backgroung_rectangle_grey.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/green_border_rectangle.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/grey_border_rectangle.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_arrow_right.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_email.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_green_calendar.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_green_double_arrow.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_green_payment.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_left_arrow_black.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_location_red.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_red_delete_outline.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable-v24/ic_white_add.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/badge_view.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/bottom_navigation_color_selector.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/corner_radius.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/horizontale_border_green_line.xml" value="0.14322916666666666" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_app_settings.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_baseline_cloud_off_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_baseline_white_add.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_history.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_home_black.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_location_blue_green.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_location_green.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_location_red.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_logout.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_profile_white.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/ic_work_black.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/layout_border.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/layout_border_red.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/line_horizontal.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/login_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/login_corner_radius.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/reactangle_border_red.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/reactangular_green.xml" value="0.19583333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/rectangle_green.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/rounded_dialog.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/rounded_edge.xml" value="0.17239583333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/drawable/white_arrow_right.xml" value="0.17916666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/font/alegreya.xml" value="0.18645833333333334" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/font/roboto.xml" value="0.20989583333333334" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/activity_add_details_fragments_to.xml" value="0.12907608695652173" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/activity_registration_login_verify_otp.xml" value="0.10461956521739131" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/activity_splash_screen.xml" value="0.12409420289855072" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/address_fragment.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_add_to_cart.xml" value="0.3333333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_addons.xml" value="0.24096385542168675" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_enter_address.xml" value="0.19831223628691982" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_gmap_current_address.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_login_gistration_otp.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_order_cancel.xml" value="0.1381340579710145" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_otp_verify.xml" value="0.1286231884057971" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_subscription.xml" value="0.2697095435684647" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/bottom_dialog_vieworder_history.xml" value="0.3333333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/content_splash_screen.xml" value="0.11594202898550725" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/custom_badge_layout.xml" value="0.13360507246376813" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/dropdown_item.xml" value="0.15081521739130435" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_address.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_cart.xml" value="0.183206106870229" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_date_picker.xml" value="0.14402173913043478" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_first.xml" value="0.12409420289855072" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/google_map.xml" value="0.22" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_addtocart_fragment.xml" value="0.12907608695652173" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_addons.xml" value="0.3333333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_addons_parent.xml" value="0.16666666666666666" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_address.xml" value="0.1938534278959811" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_cart.xml" value="0.46472019464720193" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_child.xml" value="0.1322463768115942" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_maincategory.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_manage_address.xml" value="0.2866817155756208" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_order_cancel_reason.xml" value="0.1381340579710145" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_order_history.xml" value="0.22" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_parent.xml" value="0.1322463768115942" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_slider.xml" value="0.13994565217391305" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_sub_category.xml" value="0.3333333333333333" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_subcategory_description.xml" value="0.14666666666666667" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_subscription.xml" value="0.1721014492753623" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_subscription_details.xml" value="0.1381340579710145" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_subscription_package_plans.xml" value="0.1381340579710145" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_subscription_packages.xml" value="0.22" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_upcoming_meals.xml" value="0.14266304347826086" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_upcoming_meals_order_history.xml" value="0.14402173913043478" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/item_row_view_order_history.xml" value="0.22" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/layout_loading_dialog.xml" value="0.12092391304347826" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/order_history_fragment.xml" value="0.15028901734104047" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/progress_dialog.xml" value="0.12092391304347826" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/sub_category_description_fragment.xml" value="0.1" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/layout/subscription_details_fragment.xml" value="0.1620745542949757" />
+        <entry key="..\:/D2D/Dawn_To_Dusk_Customer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/D2D/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1721014492753623" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

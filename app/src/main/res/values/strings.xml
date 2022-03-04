@@ -1,0 +1,382 @@
+<resources>
+    <string name="app_name">D2D Customer</string>
+    <string name="dawn_to_dusk">Dawn to Dusk</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="start_from">Starts from</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="Email">Email</string>
+    <string name="Country_code">Country Code</string>
+    <string name="mobile_no">Mobile No</string>
+
+    <string name="registration_details_sharedPreferences">Registration Details </string>
+    <string name="sharedPreference_cart_item_count">Cart Item Count</string>
+    <string name="sharedPreference_otp_input">otp inputs</string>
+
+
+    <string name="veg">Veg</string>
+    <string name="menu">MENU</string>
+    <string name="view_cart">View Cart</string>
+    <string name="subCategory_sharedPreference_data">sub Category SharedPreference Data</string>
+    <string name="aed">AED</string>
+    <string name="plan_start_date">Plan Start Date</string>
+    <string name="plan_end_date">Plan End Date</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="allergy_info">Allergy Info</string>
+    <string name="select_delivery_date"> Select Delivery Date</string>
+    <string name="add">Add</string>
+    <string name="addons">Add-ons</string>
+    <string name="selection">Selection</string>
+    <string name="yourOrderDetails">Your Order Details</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="community">Community</string>
+    <string name="vill_no">Villa No</string>
+    <string name="landmark">Landmark</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="payment">Payment</string>
+    <string name="date">Date</string>
+    <string name="you_cart_is_empty_add_something_from_the_menu">Your Cart is empty Add something from the menu</string>
+
+
+    <string name="payment_gateway">Payment gateway</string>
+    <string name="cod">COD</string>
+    <string name="coupon">Coupon</string>
+    <string name="enter_coupon_code">Enter Coupon Code</string>
+    <string name="apply">Apply</string>
+    <string name="invoice">Invoice</string>
+    <string name="items">Items</string>
+    <string name="item_total">Item Total</string>
+    <string name="plan_total">Plan Total</string>
+    <string name="grand_total">Grand Total</string>
+
+    <string name="deliveryCharge">Delivery Charges</string>
+    <string name="vat">VAT(5%)</string>
+    <string name="total_price">Total Price</string>
+    <string name="terms_and_conditions">I agree to all Terms and Conditions</string>
+    <string name="order_tracking">Order Tracking</string>
+    <string name="order_details">Order Details</string>
+    <string name="delivery_to">Delivery To</string>
+    <string name="order_id">Order Id</string>
+    <string name="active_address_cant_be_delete">Active address can\'t be delete</string>
+    <string name="out_for_delivery">Out for Delivery</string>
+    <string name="received">Received</string>
+
+
+
+
+    <string name="check_out">Check Out</string>
+    <string name="please_enter_villa_no">Please Enter Villa No</string>
+    <string name="provide_shipping_details">Provide Shipping Details</string>
+    <string name="please_enter_land_mark">Please Enter LandMark</string>
+    <string name="item">Item</string>
+    <string name="help_and_support">Help &amp; Support</string>
+    <string name="addresses">Address</string>
+    <string name="order_history">Order History</string>
+    <string name="app_settings">App Settings</string>
+    <string name="yourOrders">Your Orders</string>
+    <string name="order_summary">Order Summary</string>
+
+    <string name="start_ordering">Start Ordering</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_reason">Cancel Reason</string>
+    <string name="cancel_reason_required">Cancel Reason Required!!</string>
+    <string name="subscription_plan_details_sharedPreferences">Registration Details </string>
+    <string name="choose_subscription_plan">Choose Subscription Plan</string>
+    <string name="select_plan_start_date">Select Plan Start Date</string>
+    <string name="reviewOrders">Review Your Orders</string>
+    <string name="days_plan">days plan</string>
+    <string name="pay_aed">Pay AED </string>
+    <string name="allergy_info_contents">GF - Gluten free,D - Contains diary,N - Contains Nuts,SS - sea same seed,SO - Soya,V - vegetarian,S - spicy</string>
+    <string name="termsAndConditions">Terms &amp; Conditions</string>
+    <string name="how_its_works_contents">•	Breakfast combos are delivered every day at around 6AM to the chosen address
+•	A predefined specially curated food item will be delivered daily
+•	Full flexibility to change subscription plan and delivery address anytime
+•	You can auto-renew subscriptions and get the best price per meal. Subscriptions renew on the same day of every week/month from the start date
+</string>
+    <string name="terms_and_condition_contents">•Food will be kept at a assigned location near the entrance  everyday around 6AM
+•	No food delivery on Fridays and Saturdays
+•	Subscription cannot be cancelled once bought
+</string>
+    <string name="up_coming_meals">Upcoming Meals</string>
+
+    <string name="how_its_works">How its Work</string>
+    <string name="start_date"> Start Date</string>
+    <string name="login">Login</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="full_name_is_required">Full Name is Required</string>
+    <string name="required">*Required</string>
+    <string name="email_is_required">Email is Required</string>
+    <string name="provide_valid_email_id">Provide Valid Email Id</string>
+    <string name="country_code_is_required">Country code is Required</string>
+    <string name="mobile_number_is_required">Mobile Number is Required</string>
+    <string name="please_provide_the_valid_phone_number">Please provide the valid Phone Number</string>
+    <string name="change">Change</string>
+    <string name="change_address">Change Address</string>
+    <string name="end_date">End Date</string>
+
+    <string name="enter_complete_address">Enter Complete address</string>
+    <string name="enter_address_details">Enter address details</string>
+    <string name="your_location">Your Location</string>
+    <string name="house_number_floor">House Number/Floor</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="land_mark">Landmark(optional)</string>
+    <string name="save_address">Save address</string>
+    <string name="work">Work</string>
+    <string name="other">Other</string>
+    <string name="save_address_as">Save address as</string>
+    <string name="house_number_or_floor_required">House Number/Floor Required</string>
+    <string name="address_is_required">Address is Required</string>
+    <string name="sector_is_required">Sector is Required</string>
+    <string name="sector">Sector</string>
+    <string name="land_mark_is_required">LandMark is Required</string>
+    <string name="please_select_save_address_as">Please select Save address as </string>
+    <string name="please_register">Please Register</string>
+    <string name="manage_address">Manage address</string>
+    <string name="save_as">Save as</string>
+    <string name="choose_sector">Choose Sector</string>
+    <string name="no_internet_please_check_your_network_connection">No Internet Please Check Your Network Connection!!</string>
+    <string name="no_internet_connection">No Internet Connection!!</string>
+    <string name="loading">Loading...</string>
+    <string name="logging_out">Logging Out</string>
+    <string name="are_you_sure_wants_you_wants_to_exit">Are you sure,You wants to exit..?</string>
+    <string name="resend_otp_in">Resend OTP in</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="yes">Yes</string>
+
+    <string name="dialog_fine_location_rationale_description">Yes</string>
+    <string name="dialog_fine_location_rationale_title">dialog_fine_location_rationale_title</string>
+    <string name="dialog_background_location_rationale_title">Yes</string>
+    <string name="dialog_background_location_rationale_description">Yes</string>
+
+
+
+
+
+
+    <string-array name="countryCode_array">
+        <item>971</item>
+        <item>91</item>
+        <item>501</item>
+        <item>229</item>
+        <item>975</item>
+        <item>591</item>
+        <item>387</item>
+        <item>267</item>
+        <item>55</item>
+        <item>673</item>
+        <item>359</item>
+        <item>226</item>
+        <item>95</item>
+        <item>257</item>
+        <item>855</item>
+        <item>237</item>
+        <item>1</item>
+        <item>238</item>
+        <item>236</item>
+        <item>235</item>
+        <item>56</item>
+        <item>86</item>
+        <item>61</item>
+        <item>61</item>
+        <item>57</item>
+        <item>269</item>
+        <item>242</item>
+        <item>243</item>
+        <item>682</item>
+        <item>506</item>
+        <item>385</item>
+        <item>53</item>
+        <item>357</item>
+        <item>93</item>
+        <item>355</item>
+        <item>213</item>
+        <item>376</item>
+        <item>244</item>
+        <item>672</item>
+        <item>54</item>
+        <item>374</item>
+        <item>297</item>
+        <item>61</item>
+        <item>43</item>
+        <item>994</item>
+        <item>973</item>
+        <item>880</item>
+        <item>375</item>
+        <item>420</item>
+        <item>45</item>
+        <item>253</item>
+        <item>670</item>
+        <item>593</item>
+        <item>20</item>
+        <item>503</item>
+        <item>240</item>
+        <item>358</item>
+        <item>33</item>
+        <item>291</item>
+        <item>372</item>
+        <item>251</item>
+        <item>500</item>
+        <item>298</item>
+        <item>679</item>
+        <item>689</item>
+        <item>241</item>
+        <item>220</item>
+        <item>995</item>
+        <item>49</item>
+        <item>233</item>
+        <item>350</item>
+        <item>30</item>
+        <item>299</item>
+        <item>502</item>
+        <item>224</item>
+        <item>245</item>
+        <item>592</item>
+        <item>509</item>
+        <item>504</item>
+        <item>852</item>
+        <item>36</item>
+        <item>62</item>
+        <item>98</item>
+        <item>964</item>
+        <item>353</item>
+        <item>44</item>
+        <item>972</item>
+        <item>39</item>
+        <item>225</item>
+        <item>81</item>
+        <item>962</item>
+        <item>7</item>
+        <item>254</item>
+        <item>686</item>
+        <item>965</item>
+        <item>996</item>
+        <item>856</item>
+        <item>371</item>
+        <item>961</item>
+        <item>266</item>
+        <item>231</item>
+        <item>218</item>
+        <item>423</item>
+        <item>370</item>
+        <item>352</item>
+        <item>853</item>
+        <item>389</item>
+        <item>261</item>
+        <item>265</item>
+        <item>60</item>
+        <item>960</item>
+        <item>223</item>
+        <item>356</item>
+        <item>692</item>
+        <item>222</item>
+        <item>230</item>
+        <item>262</item>
+        <item>52</item>
+        <item>691</item>
+        <item>373</item>
+        <item>377</item>
+        <item>976</item>
+        <item>382</item>
+        <item>212</item>
+        <item>258</item>
+        <item>264</item>
+        <item>674</item>
+        <item>977</item>
+        <item>31</item>
+        <item>599</item>
+        <item>687</item>
+        <item>64</item>
+        <item>505</item>
+        <item>227</item>
+        <item>234</item>
+        <item>683</item>
+        <item>850</item>
+        <item>47</item>
+        <item>968</item>
+        <item>92</item>
+        <item>680</item>
+        <item>507</item>
+        <item>675</item>
+        <item>595</item>
+        <item>51</item>
+        <item>63</item>
+        <item>870</item>
+        <item>48</item>
+        <item>351</item>
+        <item>1</item>
+        <item>974</item>
+        <item>40</item>
+        <item>7</item>
+        <item>250</item>
+        <item>590</item>
+        <item>685</item>
+        <item>378</item>
+        <item>239</item>
+        <item>966</item>
+        <item>221</item>
+        <item>381</item>
+        <item>248</item>
+        <item>232</item>
+        <item>65</item>
+        <item>421</item>
+        <item>386</item>
+        <item>677</item>
+        <item>252</item>
+        <item>27</item>
+        <item>82</item>
+        <item>34</item>
+        <item>94</item>
+        <item>290</item>
+        <item>508</item>
+        <item>249</item>
+        <item>597</item>
+        <item>268</item>
+        <item>46</item>
+        <item>41</item>
+        <item>963</item>
+        <item>886</item>
+        <item>992</item>
+        <item>255</item>
+        <item>66</item>
+        <item>228</item>
+        <item>690</item>
+        <item>676</item>
+        <item>216</item>
+        <item>90</item>
+        <item>993</item>
+        <item>688</item>
+        <item>971</item>
+        <item>256</item>
+        <item>44</item>
+        <item>380</item>
+        <item>598</item>
+        <item>1</item>
+        <item>998</item>
+        <item>678</item>
+        <item>39</item>
+        <item>58</item>
+        <item>84</item>
+        <item>681</item>
+        <item>967</item>
+        <item>260</item>
+        <item>263</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

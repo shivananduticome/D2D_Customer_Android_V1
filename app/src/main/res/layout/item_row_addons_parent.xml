@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <!--  <TextView
+            android:id="@+id/tvAddOnsItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Add a Side"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/purple_700"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Remove"
+            />
+        <ImageView
+            android:id="@+id/vegOrNonVegImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvAddOnsItemTitle"
+            android:background="@drawable/veg"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/vegOrNonVegImageView"
+            android:layout_below="@+id/tvAddOnsItemTitle"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Chill Sauce Sachet"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRemove"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="AED 10"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView2"
+            />-->
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/d2d_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/lnrHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvType"
+            >
+            <TextView
+                android:id="@+id/tvAddOnTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Item Type"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Remove"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/purple_700"
+                android:gravity="right"
+                android:layout_marginRight="25dp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+       <!-- <LinearLayout
+            android:id="@+id/lnr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lnrHeader"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:id="@+id/vegOrNonVegImageView"
+                android:layout_width="10sp"
+                android:layout_height="10dp"
+                android:background="@drawable/veg"
+                android:layout_marginTop="6dp"
+                />
+            <TextView
+                android:id="@+id/tvAddOnsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>-->
+       <!-- <LinearLayout
+            android:id="@+id/lnr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lnrHeader"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/tvAddOnsPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AED 10"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                />
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                />
+
+        </LinearLayout>-->
+
+
+
+
+
+        <!--<LinearLayout
+            android:id="@+id/lnr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lnr1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+
+            >
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10dp"
+                android:background="@drawable/veg"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chocolate Shake"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lnr2"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AED 15"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/lnr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lnr3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+
+            >
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10dp"
+                android:background="@drawable/veg"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cappuccino"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lnr4"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AED 20"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                />
+
+        </LinearLayout>-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/child_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnrHeader"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

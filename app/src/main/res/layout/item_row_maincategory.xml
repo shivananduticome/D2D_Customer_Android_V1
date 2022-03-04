@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+           android:id="@+id/relativeLayout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginRight="16dp"
+           android:orientation="vertical"
+           >
+
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/dawn_to_dusk"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+          <!-- <View
+               android:visibility="gone"
+               android:id="@+id/viewLine"
+               android:layout_width="wrap_content"
+               android:layout_height="3dp"
+               android:layout_below="@+id/tvCategoryName"
+               android:layout_marginTop="4dp"
+               android:background="@color/gold" />-->
+        <TextView
+            android:id="@+id/tvHorizontalLine"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/line_horizontal"
+            android:fontFamily="@font/almendra" />
+
+       </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

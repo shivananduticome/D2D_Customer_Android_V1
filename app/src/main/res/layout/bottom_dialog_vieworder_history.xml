@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/order_summary"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/d2d_color"
+        android:textSize="18dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+   <!-- <View
+        android:id="@+id/viewLineBelowOrderSummary"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:background="@color/gold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader"/>-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recyclerViewAllaCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recyclerViewUpcomingMeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader"
+
+        />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rltAllaCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerViewAllaCart">
+
+        <TextView
+            android:id="@+id/tvItemQuantityTotalHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_total"
+            android:textColor="@color/d2d_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvItemQuantityTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="12"
+            android:textColor="@color/d2d_color"
+            android:textSize="12sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvDeliveryChargeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvItemQuantityTotalHeader"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/deliveryCharge" />
+
+        <TextView
+            android:id="@+id/tvDeliveryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvItemQuantityTotalHeader"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="00"
+            />
+
+
+        <TextView
+            android:id="@+id/tvVatHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/vat"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvDeliveryChargeHeader"
+           />
+
+        <TextView
+            android:id="@+id/tvVat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDeliveryChargeHeader"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="AED 5"
+            />
+
+        <View
+            android:id="@+id/viewLineBelowItemTotal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/view_line"
+            android:layout_below="@+id/tvVatHeader"
+           />
+
+        <TextView
+            android:id="@+id/tvTotalGrandHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewLineBelowItemTotal"
+            android:layout_marginTop="10dp"
+            android:text="@string/grand_total"
+            android:textColor="@color/d2d_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalGrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewLineBelowItemTotal"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="AED 165"
+            android:textColor="@color/d2d_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+        <View
+            android:id="@+id/viewLineBelowTotalGrand"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/view_line"
+            android:layout_below="@+id/tvTotalGrandHeader"
+            />
+        <TextView
+            android:id="@+id/tvTotalOrderDetailsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/order_details"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/viewLineBelowTotalGrand"
+           />
+        <TextView
+            android:id="@+id/tvOrderNumberHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/order_id"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvTotalOrderDetailsHeader"
+            />
+
+        <TextView
+            android:id="@+id/tvOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_below="@+id/tvOrderNumberHeader"
+            />
+
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_below="@+id/tvOrderNumberHeader"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tvOrderId"
+            />
+
+        <TextView
+            android:id="@+id/tvPaymentHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/payment"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvOrderId"
+           />
+        <TextView
+            android:id="@+id/tvPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvPaymentHeader"
+            />
+
+
+        <TextView
+            android:id="@+id/tvOrderDateHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/date"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvPayment"
+           />
+
+        <TextView
+            android:id="@+id/tvOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_below="@+id/tvOrderDateHeader"
+           />
+        <TextView
+            android:id="@+id/tvDeliveryToHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/delivery_to"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvOrderDate"
+            />
+        <TextView
+            android:id="@+id/tvDeliveryTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+             android:layout_below="@+id/tvDeliveryToHeader"
+            />
+        <View
+            android:id="@+id/viewLineBelowOrderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/view_line"
+            android:layout_below="@+id/tvDeliveryTo"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rltSubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerViewUpcomingMeals">
+
+        <TextView
+            android:id="@+id/tvPlanTotalHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/plan_total"
+            android:textColor="@color/d2d_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tvPlanTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="12"
+            android:textColor="@color/d2d_color"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/tvSubscriptionDeliveryChargeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlanTotalHeader"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/deliveryCharge" />
+
+        <TextView
+            android:id="@+id/tvSubscriptionDeliveryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlanTotalHeader"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/tvSubscriptionVatHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubscriptionDeliveryChargeHeader"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/vat" />
+
+        <TextView
+            android:id="@+id/tvSubscriptionVat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubscriptionDeliveryChargeHeader"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:text="AED 5"
+            />
+
+        <View
+            android:id="@+id/viewSubLineBelowItemTotal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/view_line"
+            android:layout_below="@+id/tvSubscriptionVat"
+            />
+
+        <TextView
+            android:id="@+id/tvSubscriptionTotalGrandHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewSubLineBelowItemTotal"
+            android:layout_marginTop="10dp"
+            android:text="@string/grand_total"
+            android:textColor="@color/d2d_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubscriptionTotalGrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewSubLineBelowItemTotal"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="AED 165"
+            android:textColor="@color/d2d_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/subViewLineBelowTotalGrand"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/view_line"
+            android:layout_below="@+id/tvSubscriptionTotalGrand"
+            />
+
+        <TextView
+            android:id="@+id/tvSubTotalOrderDetailsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subViewLineBelowTotalGrand"
+            android:layout_marginTop="10dp"
+            android:text="@string/order_details"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tvSubscriptionOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubTotalOrderDetailsHeader"
+            />
+
+        <TextView
+            android:id="@+id/tvSubscriptionOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubTotalOrderDetailsHeader"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tvSubscriptionOrderId"
+            android:fontFamily="@font/roboto_regular"
+            android:text="order Status"
+            android:textColor="@color/d2d_color" />
+
+
+        <TextView
+            android:id="@+id/tvSubscriptionPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubscriptionOrderStatus"
+            />
+
+
+        <TextView
+            android:id="@+id/tvSubStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubscriptionPayment"
+            />
+
+        <TextView
+            android:id="@+id/tvSubEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubStartDate"
+            />
+
+
+
+
+       <!-- <TextView
+            android:id="@+id/tvSubDateHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubscriptionPayment"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+        <TextView
+            android:id="@+id/tvSubscriptionDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubDateHeader"
+            />-->
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvSubStartDateHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubEndDate"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/start_date" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvSubscriptionStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubStartDateHeader"
+            />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvSubEndDateHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubscriptionStartDate"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/end_date" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvSubscriptionEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubEndDateHeader"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tvSubDeliveryToHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubscriptionEndDate"
+            android:alpha="0.5"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/delivery_to" />
+
+        <TextView
+            android:id="@+id/tvSubscriptionDeliveryTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_below="@+id/tvSubDeliveryToHeader"
+            />
+
+        <View
+            android:id="@+id/viewLineSubBelowOrderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvSubscriptionDeliveryTo"
+            android:background="@color/view_line" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

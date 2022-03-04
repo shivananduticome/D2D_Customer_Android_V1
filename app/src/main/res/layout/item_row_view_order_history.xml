@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        >
+        <LinearLayout
+            android:id="@+id/lnrImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnrImageWithTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lnrImageView"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/vegOrNonVegImageView"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/veg"
+                />
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="McSaver Small Wedges"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrItemQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnrImageWithTitle"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lnrImageView"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/itemQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginRight="3dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="AED 116"
+                />
+
+            <TextView
+                android:id="@+id/tvItemQuantityTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="18"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvAddonsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnrItemQuantity"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/lnrImageView"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/addons"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvAddonsTitle"
+            android:layout_toRightOf="@+id/lnrImageView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginRight="3dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="16sp"
+                />-->
+            <TextView
+                android:id="@+id/tvAddOnsName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="AED 116"
+                />
+            <TextView
+                android:id="@+id/tvAddOnsPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="right"
+                android:text="18"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
